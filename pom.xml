@@ -32,17 +32,6 @@
         <build>
                 <finalName>ELPDevOps</finalName>
         </build>
- <distributionManagement>
-      <snapshotRepository>
-        <id>jfrog-snapshots</id>
-        <url>http://54.229.233.248:8082/artifactory/DevOpsBatch5/</url>
-      </snapshotRepository>
-      <repository>
-        <id>jfrog-releases</id>
-        <url>http://54.229.233.248:8082/artifactory/DevOpsBatch5/</url>
-      </repository>
-    </distributionManagement>
-
  <profiles>
 <profile>
 <id>sonar</id>
